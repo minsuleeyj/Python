@@ -1,0 +1,62 @@
+identity = '지구인'
+print('안녕 나는', identity, '이야')
+
+#주석: 프로그래밍 언어가 무시하는 문자
+#identity = '지구인'
+#print('안녕 나는', identity, '이야')
+#이런 식으로 코드를 잠시 작동을 멈출 수 있고
+identity = '이민수수' #코드에 오른쪽에 써서 코드의 설명을 할 수도 있음
+print('안녕 나는', identity, '이야')
+#그리고                     이렇게              도  사 용 할 수 있 음
+
+"""
+그리고 여러 줄을 묶어서 주석으로 만들 수 있는데
+이렇게 큰 따옴표 세개로 묶어놓는다.
+"""
+season='봄'
+print('지금은', season, '입니다')
+
+#변수는 아무렇게나 쳐도 되는 것 같다.
+#밑에쳐럼 말이다 밑에 변수는 영타로 아무거나쳐봄(dkanrjskcuqha)이기 때문이다.
+dkanrjskcuqha='아무거나 쳐봄'
+print('실험을 위해서', dkanrjskcuqha, '이게 되려나?')
+
+#문자열은 괄호를 치고 수학열은 괄호를 안 침
+#문자는 사람만 이해할 수 있고 숫자는 사람도 컴퓨터도 이해할 수 있디 때문임
+
+my_age=22
+my_name='이민수'
+print(my_name, '는', my_age,'살')
+my_next_age=my_age+1 #(my_next_age=23)=(my_next_age=my_age+1)
+print(my_name, '는 내년에', my_next_age, '살이다')
+
+multiplay=9*9 #81
+divide=30/5 #6
+power=2**10 #1024
+reminder=15%4 #3 이거는 나머지 그거임 나머지 기호가 퍼센트인 이유는 그냥 파이썬의 약속임
+
+print(multiplay, divide, power, reminder)
+
+text = '2015' + '1991'
+number = 2015 + 1991
+
+print(text)
+print(number)
+
+#text_minus= text - '1991' #올바른 코드진행이 아님
+
+"""
+숫자는 =-*/%** 등 숫자 연산이 가능
+"문자열"은 문자 그대로 출력, 따옴표로 둘러싸서 표시
+"""
+
+"""
+REPL: powershell에 파일 이름없이 python이라고만 입력하면 나오는창
+파이썬 코드를 한 줄씩 입력해 가면서 테스트 해 볼 수 있는 입력창
+REPL 창을 종료하려면 exit()라고 입력\
+Read-Eval-Print-Loop
+Read: (코드를) 읽어서
+Eval: (읽은 코드를) 평가(실행)하고
+Print: (실행한 결과를) 출력하는
+Loop: 루프(반복)
+"""
